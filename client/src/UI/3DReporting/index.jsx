@@ -9,6 +9,7 @@ import { Loader } from "@react-three/drei";
 
 import { data, models, inspections } from '../data'
 import Model from './Model'
+// import Table from './Table';
 // import Report from './Report';
 
 
@@ -64,6 +65,7 @@ const Home = () => {
 
   return (
     <>
+      {/* <Table /> */}
       <Suspense fallback={<Loader dataStyles={{ fontSize: '40px' }} />}>
         <div>
           <Grid container spacing={1}>
